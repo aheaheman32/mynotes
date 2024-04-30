@@ -13,5 +13,10 @@ flatpak install flathub com.github.Murmele.Gittyup
 
 githubのアカウントを紐付ける際は、パスワードの欄にトークンを入れる
 https://qiita.com/shiro01/items/e886aa1e4beb404f9038
+tokenはちゃんと控えておくこと
 
+リポジトリへの接続方式はsshにする
+httpだと毎回tokenの入力を求められる
+うっかりhttpにした場合は、Repository > Configure Repository > Remotes の部分で、sshのURLに変更(github上の)
+Upstreamもそこで設定できる
 
