@@ -14,4 +14,5 @@ flatpak install flathub com.github.Murmele.Gittyup
 githubのアカウントを紐付ける際は、パスワードの欄にトークンを入れる
 https://qiita.com/shiro01/items/e886aa1e4beb404f9038
 
+test
 
