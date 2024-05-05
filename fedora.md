@@ -1,11 +1,12 @@
-# flathub
+# fedora環境構築
+## flathub
 flatpakにflathubのレポジトリを追加する
 https://flathub.org/setup/Fedora
 ```
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
-# git client
+## git client
 
 Gittyupをインストール Linux Git Client
 https://flathub.org/apps/com.github.Murmele.Gittyup
@@ -23,7 +24,7 @@ httpだと毎回tokenの入力を求められる
 Upstreamもそこで設定できる
 
 
-# nuphyの設定
+## nuphyの設定
 1. ここからnuphyの定義jsonファイルを落とす
    https://nuphy.com/pages/json-files-for-nuphy-keyboards
 2. https://usevia.app/ にアクセスし、DesignタブのLoad Draft DefinitionからDLしたjsonファイルをアップロード
@@ -36,3 +37,14 @@ Upstreamもそこで設定できる
 5. 端末を開いて、`sudo chmod a+rw /dev/hidrawX`として、再度3を実行するとOK
 
 参考: https://bbs.archlinux.org/viewtopic.php?id=285709
+
+## Asciidoctor環境
+[参照](./asciidoctor環境構築.md)
+
+## その他tips
+- 端末で`code .`と打つとそこをワークスペースとしてVSCodeが開く
+- wsl2でもGUIアプリが動かせる(ウィンドウが出る) 追加設定は不要で、単に該当アプリのコマンドを叩くだけ
+- KDEでウィンドウの配置をきれいにしてくれるやつ ない?
+     - ある Settings > Window Management > Desktop Effects > Tiling Editor
+     - Win + T で配置場所のフォーマット編集
+     - 該当ウィンドウを掴んだ状態でShiftを押すと、フィットさせられる
