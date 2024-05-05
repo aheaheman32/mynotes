@@ -1,4 +1,4 @@
-# fedora環境構築
+# Fedora環境構築
 ## flathub
 flatpakにflathubのレポジトリを追加する
 https://flathub.org/setup/Fedora
