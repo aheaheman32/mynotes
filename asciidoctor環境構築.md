@@ -265,6 +265,8 @@ asciidoctor: WARNING: problem encountered in image: /tmp/image-20240505-135-h6oh
 - [公式ドキュメント](https://docs.asciidoctor.org/)
 - [AsciidoctorとGradleでつくる文書執筆環境](https://h1romas4.github.io/asciidoctor-gradle-template/index.html)
   - [上記のgithub](https://github.com/h1romas4/asciidoctor-gradle-template)
+- [AsciiDoc文書作成入門:: Asciidocによる文書作成環境の構築](https://itcweb.cc.affrc.go.jp/affrit/documents/guide/asciidoc/start)
+
 
 ### ツール
 
