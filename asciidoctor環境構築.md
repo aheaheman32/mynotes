@@ -44,6 +44,7 @@ VSCodeのプレビューにkrokiを使う場合は以下も必須。
 ## 構築手順
 
 プレビューはVSCode拡張機能とkrokiサーバ、html/pdfはコンテナで行う。
+コンテナを稼働させたら、`podman container attach <asciidoctorコンテナ>`でasciidoctorコンテナにアタッチして変換を行う。
 
 ### ポッドを作る場合
 
@@ -259,6 +260,13 @@ asciidoctor: WARNING: problem encountered in image: /tmp/image-20240505-135-h6oh
 
 ## Asciidoc参考リンク集
 
-- https://h1romas4.github.io/asciidoctor-gradle-template/index.html
+### 書き方
+
+- [公式ドキュメント](https://docs.asciidoctor.org/)
+- [AsciidoctorとGradleでつくる文書執筆環境](https://h1romas4.github.io/asciidoctor-gradle-template/index.html)
+  - [上記のgithub](https://github.com/h1romas4/asciidoctor-gradle-template)
+
+### ツール
+
 - [krokiマニュアル](https://docs.kroki.io/kroki/)
 - ほかにもいろいろ
